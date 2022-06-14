@@ -10,11 +10,11 @@ class Scooter{
     // Function maken hier
 
     public function checkTank(){
-        if($this->inhoudTank == 7){
-            echo 'Volle tank!';
+        if($this->inhoudTank == 0){
+            echo 'Lol ga tanken ofzo gekke gast!';
         }
     else{
-        echo 'Haha! Ga je tank vullen!';
+        echo 'Zooo geld teveel he met deze tank prijzen!';
         }
     }
 }

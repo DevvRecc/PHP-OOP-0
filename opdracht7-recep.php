@@ -7,11 +7,7 @@ class lamp{
     public $isAan;
 
     public function setStatus($status){
-        if ($this->isAan == "aan"){
-            echo "De lamp staat aan"."<br>";
-        }else{
-            echo "Uit, damn you broke?";
-        }
+        $this->isAan = $status;
     }
 }
 
@@ -20,15 +16,15 @@ class lamp{
     $woonkamerLamp = new lamp();
     $woonkamerLamp->kleur = "Rood";
     $woonkamerLamp->helderheid = "Zacht";
-    $woonkamerLamp->isAan = "aan";
+    $woonkamerLamp->setStatus('Aan');
 
 echo "Lamp 1". "<br>". "<br>";
 echo "Kleur: ";
 echo $woonkamerLamp->kleur. "<br>";
 echo "Helderheid: ";
 echo $woonkamerLamp->helderheid. "<br>";
-echo "Aan of Uit: ";
-echo $woonkamerLamp->setStatus("aan"). "<br>";
+echo "Status: ";
+echo $woonkamerLamp->isAan. "<br>". "<br>";
 
 
 // OBJECT 2
@@ -42,6 +38,7 @@ echo "Kleur: ";
 echo $keukenLamp->kleur. "<br>";
 echo "Helderheid: ";
 echo $keukenLamp->helderheid. "<br>";
-echo "Aan of Uit: ";
-echo $keukenLamp->setStatus(""). "<br>";
+echo "Status: ";
+// echo $keukenLamp->setStatus(). "<br>";
 
+?>
