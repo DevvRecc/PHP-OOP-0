@@ -23,7 +23,7 @@ class Klaas extends Mens{
 
 // Objecten hier onder
 
-$jongen1 = new Recep();
+$jongen1 = new Mens();
 $jongen1 -> naam = 'Recep'; 
 $jongen1 -> achternaam = 'Yildiz';
 $jongen1 -> afkomst = 'Turks';
@@ -31,7 +31,7 @@ $jongen1 -> lengte = '1.87'; // In meters
 $jongen1 -> hobby = 'Boksen';
 $jongen1 -> opleiding = 'Software Developer';
 
-$jongen2 = new Klaas();
+$jongen2 = new Mens();
 $jongen2 -> naam = 'Klaas';
 $jongen2 -> achternaam = 'Petersen';
 $jongen2 -> afkomst = 'Nederlands';
