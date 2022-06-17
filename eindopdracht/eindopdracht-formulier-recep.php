@@ -22,7 +22,7 @@
         </div>
         <div class="card-body bg-dark">
 
-                    <!-- HIER DOE IK DE WEG -->
+            <!-- HIER DOE IK DE WEG -->
 
             <form method="post" action="eindopdracht-resultaat-recep.php">
                 <div style="border: 1px solid white; padding: 25px; margin-bottom: 15px;" class="kader">
@@ -54,7 +54,7 @@
                     </label>
                 </div>
 
-                <!-- HIER DOE IK DE SCOOTER -->    
+            <!-- HIER DOE IK DE SCOOTER -->    
 
                 <div style="border: 1px solid white; padding: 25px; margin-bottom: 15px;" class="kader">
                     <div style="color: white; background-color: #5cb85c; font-weight:bold;" class="alert alert-success"><em>Scooter<em></div>

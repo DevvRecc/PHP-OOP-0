@@ -54,7 +54,7 @@
 
         $weg1 = new weg();
         $km = $weg1->afstand = $_POST['lengte'];
-        $minFile = $weg1->minFile = $_POST['vertragingDoorFile'] / 60;
+        $minFile = $weg1->minFile = $_POST['vertragingDoorFile'];
 
         $fiets1 = new fiets();
 
